@@ -1,0 +1,71 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* div {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+
+} */
+
+section {
+    color: #fff;
+    position: center;
+    text-align: center;
+    background: url("hero-bg.png")no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .container {
+    max-width: 1320px;
+    margin: auto;
+
+} */
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 24px;
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .85);
+}
+
+a {
+    display: inline-block;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all ease-in 0.3s;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #000;
+}
